@@ -1,0 +1,215 @@
+
+*{
+    padding:0;
+    margin: 0;
+}
+
+body{
+    font-size: 12px;
+    background-color:#ebebeb;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*header estilos*/
+header{
+    background-color:#eac926;
+}
+
+/*barra de busqueda header*/
+header #buscar{
+    margin-left:20px;
+}
+
+/*logo header*/
+header img{
+    width:45vw;
+    margin:20px 0 0 20px ;
+}
+/*fin logo*/
+
+
+/* estilo barra buscar*/
+.buscar{
+    display: block;
+}
+header  #lupa{
+    background-color: white;
+    padding: 1px;
+    margin-top:1px;
+    border: solid #666 1px;
+}
+
+/*estilo Menu*/
+.menu{
+    display: flex;
+    justify-content: center;
+}
+header #menu{
+background-color:#1259C3;
+border-radius:3px;
+margin:10px 10px 20px 10px;
+padding: 10px;
+}
+/*nav*/
+header ul{
+    margin-top:10px;
+    margin-bottom:20px;
+}
+header a{
+margin: 10px 5px 0 20px;
+text-decoration: none;
+color: #03264c;
+}
+
+/*espacio para compra en cuotas */
+header .cuotas{
+    margin: 10px 65px 0 65px;
+    color: #03264c;
+}
+header .cuotas{
+    display: flex;
+}
+header #compra{
+    margin:0 0 0 0px ;
+}
+
+/*fin header*/
+
+
+
+/*estilos primera seccion*/
+main #sola{
+    width:360px; 
+}
+main #basado{
+    text-align: center;
+    margin: 20px;
+}
+.primerSec .Des{
+    color:#39b54a;
+    font-size:16px;
+    margin:20px 10px 0 0px;
+    text-align: center;
+}
+.primerSec img{
+    width:320px;
+    margin-left:20px;
+    margin-right:20px;
+
+}
+.primerSec .precio{
+    font-size:18px;
+    margin:20px 15px 0 20px;
+    color: #03264c;
+}
+
+.primerSec .producto{
+    font-size:16px;
+    margin:0px 20px 15px 20px;
+    padding-left:20px;
+    padding-bottom: 5px;
+    background-color: white;
+    color:#03264c;
+}
+.primerSec .conte{
+    display:flex;
+    background-color: white;
+    margin:0px 20px 0px 20px;
+}
+/*fin primera seccion*/
+
+
+/*Estilos segunda seccion*/
+.segundoSec .Des{
+    color:#39b54a;
+    font-size:16px;
+    margin:20px 10px 0 0px;
+}
+.segundoSec img{
+    width:320px;
+    margin-left:20px;
+    margin-right:20px;
+}
+.segundoSec .precio{
+    font-size:18px;
+    color: #03264c;
+    margin:20px 15px 0 20px;
+}
+
+.segundoSec .producto{
+    font-size:16px;
+    margin:0px 20px 15px 20px;
+    padding-left: 20px;
+    padding-bottom:5px;
+    color: #03264c;
+    background-color: white;
+}
+.segundoSec .conte1{
+    display:flex;
+    background-color: white;
+    margin:0px 20px 0px 20px;
+}
+/*fin segunda seccion*/
+
+
+
+/*estilos del Footer*/
+footer{
+    background-color: white;
+    padding-top:30px;
+}
+footer p{
+    margin:0 38px 25px 38px;
+    padding:0 0 0 0;
+    text-align: center;
+    color:#666;
+
+}
+footer  h3{
+    margin:0 0 0 0;
+    padding:0 0 0 0;
+    text-align: center;
+    color: #666;
+
+}
+footer .copi{
+    margin:0 0 0px 20px;
+    padding:0 0 20px 0;
+    text-align:left;
+
+}
+footer #ico{
+    color: #1259C3;
+    border-radius:3px;
+    margin:10px 10px 10px 5px;
+    padding: 10px 150px 10px 150px;
+    display:block;
+}
+/*Fin footer*/
+.cont-Car{
+    text-align: end;
+    margin-top: -17px;
+    margin-bottom:-17px;
+    padding-right:10px;
+    
+}
+.primerSec .cont-Car img{
+    width:30px;
+    text-align: end;
+    border: solid 1px #39b54a;
+    border-radius:100px;
+}
+
+.cont-Car1{
+    text-align: end;
+    margin-top: -17px;
+    margin-bottom:-17px;
+    padding-right:10px;
+    
+}
+.segundoSec .cont-Car1 img{
+    width:30px;
+    text-align: end;
+    border: solid 1px #39b54a;
+    border-radius:100px;
+}
